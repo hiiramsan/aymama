@@ -13,7 +13,7 @@ export interface TimelineProps {
 const Timeline = ({ events }: TimelineProps) => {
   return (
     <ol className="relative border-s border-gray-400 dark:border-gray-700">
-      {events.map((event, index) => (
+      {events.map((event, _) => (
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -start-1.5 border border-gray-100 dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
