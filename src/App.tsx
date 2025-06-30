@@ -6,12 +6,8 @@ import {
   Instagram,
   Github,
   Linkedin,
-  School,
   AppWindow,
   GraduationCap,
-  Star,
-  NotebookTabs,
-  StarOff,
   Stars,
 } from "lucide-react";
 import Timeline from "./components/Timeline/Timeline";
