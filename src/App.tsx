@@ -8,6 +8,11 @@ import {
   Linkedin,
   School,
   AppWindow,
+  GraduationCap,
+  Star,
+  NotebookTabs,
+  StarOff,
+  Stars,
 } from "lucide-react";
 import Timeline from "./components/Timeline/Timeline";
 import {
@@ -138,7 +143,7 @@ function App() {
         {/* Education Timeline */}
         <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-lg border border-gray-700 shadow-lg mt-8 w-full md:w-2/4 flex flex-col">
           <div className="flex mb-2 space-x-4 item-center">
-            <School color="white" />
+            <GraduationCap color="white" />
             <h1 className="text-xl text-white font-bold mb-2">Education</h1>
           </div>
           <Timeline
@@ -158,6 +163,44 @@ function App() {
             ]}
           />
         </div>
+        
+        {/* Posts/Achievements */}
+        <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-lg border border-gray-700 shadow-lg mt-8 w-full md:w-2/4 flex flex-col">
+          <div className="flex mb-6 space-x-4 items-center">
+            <Stars color="white" />
+            <h1 className="text-xl text-white font-bold">Activities</h1>
+          </div>
+          
+          {/* Post Item */}
+          <div className="bg-gradient-to-r from-gray-700 to-gray-800 rounded-lg border border-gray-600 shadow-lg overflow-hidden">
+            {/* Post Image */}
+            <img
+              src="/JII.JPG"
+              alt="Hackathon Victory"
+              className="w-full h-[400px] object-cover"
+            />
+            
+            {/* Post Content */}
+            <div className="p-6">
+              <h2 className="text-xl font-bold text-white mb-3">
+                🏆 Won First Place at JII 2025!
+              </h2>
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                Had the opportunity to be part of the winning team of Jovenes Impulsando la Industria's IT challenge: Development of an application for the management of activities, performance and task assignment in the operations area.
+              </p>
+              
+              {/* Post Meta */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center space-x-2 text-gray-400 text-xs">
+                  <span>June 2025</span>
+                  <span>•</span>
+                  <span>Achievement</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         {/* Projects */}
         <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-lg border border-gray-700 shadow-lg mt-8 w-full md:w-2/4 flex flex-col">
           <div className="flex mb-6 space-x-4 items-center">
@@ -216,6 +259,7 @@ function App() {
             </a>
           </div>
         </div>
+        
       </div>
     </div>
   );
