@@ -15,11 +15,13 @@ import {
   JavaScript,
   Nodejs,
   CSS,
+  ReactLogo,
+  TailwindCSS,
   Expressjs,
   HTML5,
   MongoDB,
 } from "./components/icons/icons";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -205,6 +207,30 @@ function App() {
           </div>
           {/* Projects */}
           <div className="grid grid-cols-2 gap-4 w-full">
+
+            <a
+              className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg border border-gray-700 shadow-lg flex flex-col transition-transform transform duration-300 ease-in-out hover:scale-105 hover:border-slate-500 hover:shadow-lg hover:shadow-indigo-500/30"
+              href="https://promodoro-rho.vercel.app/"
+              target="_blank"
+            >
+              <img
+                src="/promodoro.png"
+                alt="Promodoro"
+                className="w-full h-[180px] object-cover rounded-t-lg"
+              />
+              <p className="text-md text-white ml-4 mt-4 font-semibold">
+                Promodoro
+              </p>
+              <p className="text-md text-gray-300 ml-4 mb-2 font-light">
+                Pomodoro Timer with Project Management 
+              </p>
+              <div className="flex justify-start items-center ml-4 mb-4 space-x-2">
+                <ReactLogo className="size-6" />
+                <Nodejs className="size-6" />
+                <TailwindCSS className="size-6" />
+                <MongoDB className="size-6" />
+              </div>
+            </a>
             <a
               className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg border border-gray-700 shadow-lg flex flex-col transition-transform transform duration-300 ease-in-out hover:scale-105 hover:border-slate-500 hover:shadow-lg hover:shadow-indigo-500/30"
               href="https://flashy-v2.vercel.app"
@@ -254,28 +280,7 @@ function App() {
               </div>
             </a>
 
-            <a
-              className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg border border-gray-700 shadow-lg flex flex-col transition-transform transform duration-300 ease-in-out hover:scale-105 hover:border-slate-500 hover:shadow-lg hover:shadow-indigo-500/30"
-              href="https://promodoro-rho.vercel.app/"
-              target="_blank"
-            >
-              <img
-                src="/promodoro.png"
-                alt="Promodoro"
-                className="w-full h-[180px] object-cover rounded-t-lg"
-              />
-              <p className="text-md text-white ml-4 mt-4 font-semibold">
-                Promodoro
-              </p>
-              <p className="text-md text-gray-300 ml-4 mb-2 font-light">
-                Pomodoro Timer with Project Management 
-              </p>
-              <div className="flex justify-start items-center ml-4 mb-4 space-x-2">
-                <JavaScript className="size-6" />
-                <CSS className="size-6" />
-                <HTML5 className="size-6" />
-              </div>
-            </a>
+            
           </div>
         </div>
         

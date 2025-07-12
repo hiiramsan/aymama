@@ -11,3 +11,31 @@ export const Expressjs = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://
 export const HTML5 = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520" width="1em" height="1em" {...props}><path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" /><path fill="#ef652a" d="M226 472l149-41 35-394H226" /><path fill="#ecedee" d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z" /><path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z" /></svg>;
 
 export const MongoDB = (props: SVGProps<SVGSVGElement>) => <svg viewBox="0 0 256 549" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid" {...props}><path fill="#01EC64" d="M175.622 61.108C152.612 33.807 132.797 6.078 128.749.32a1.03 1.03 0 0 0-1.492 0c-4.048 5.759-23.863 33.487-46.874 60.788-197.507 251.896 31.108 421.89 31.108 421.89l1.917 1.28c1.704 26.234 5.966 63.988 5.966 63.988h17.045s4.26-37.54 5.965-63.987l1.918-1.494c.213.214 228.828-169.78 31.32-421.677Zm-47.726 418.05s-10.227-8.744-12.997-13.222v-.428l12.358-274.292c0-.853 1.279-.853 1.279 0l12.357 274.292v.428c-2.77 4.478-12.997 13.223-12.997 13.223Z" /></svg>;
+
+export const ReactLogo = (props: SVGProps<SVGSVGElement>) => (
+    <svg viewBox="0 0 256 256" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" {...props}>
+        <g>
+            <circle cx="128" cy="128" r="28" fill="#61dafb" />
+            <g stroke="#61dafb" strokeWidth="16" fill="none">
+                <ellipse rx="100" ry="36" cx="128" cy="128" transform="rotate(0 128 128)" />
+                <ellipse rx="100" ry="36" cx="128" cy="128" transform="rotate(60 128 128)" />
+                <ellipse rx="100" ry="36" cx="128" cy="128" transform="rotate(120 128 128)" />
+            </g>
+        </g>
+    </svg>
+);
+
+export const TailwindCSS = (props: SVGProps<SVGSVGElement>) => (
+    <svg viewBox="0 0 256 154" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" {...props}>
+        <defs>
+            <linearGradient id="tw-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#2298bd" />
+                <stop offset="100%" stopColor="#0ed7b5" />
+            </linearGradient>
+        </defs>
+        <path
+            d="M128 0C93.867 0 73.6 17.067 67.2 51.2c13.867-17.067 29.867-23.467 48-19.2 10.453 2.453 17.953 10.08 26.08 18.373C152.96 59.84 163.2 70.4 180.267 70.4c34.133 0 54.4-17.067 60.8-51.2-13.867 17.067-29.867 23.467-48 19.2-10.453-2.453-17.953-10.08-26.08-18.373C155.04 10.56 144.8 0 128 0zm-60.8 83.2C33.067 83.2 12.8 100.267 6.4 134.4c13.867-17.067 29.867-23.467 48-19.2 10.453 2.453 17.953 10.08 26.08 18.373C79.04 142.24 89.28 152.8 106.347 152.8c34.133 0 54.4-17.067 60.8-51.2-13.867 17.067-29.867 23.467-48 19.2-10.453-2.453-17.953-10.08-26.08-18.373C101.12 92.64 90.88 83.2 67.2 83.2z"
+            fill="url(#tw-gradient)"
+        />
+    </svg>
+);
