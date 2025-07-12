@@ -21,7 +21,7 @@ import {
   HTML5,
   MongoDB,
 } from "./components/icons/icons";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
