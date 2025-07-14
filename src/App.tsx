@@ -210,7 +210,7 @@ function App() {
 
             <a
               className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg border border-gray-700 shadow-lg flex flex-col transition-transform transform duration-300 ease-in-out hover:scale-105 hover:border-slate-500 hover:shadow-lg hover:shadow-indigo-500/30"
-              href="https://promodoro-rho.vercel.app/"
+              href="https://promodoroapp.vercel.app/"
               target="_blank"
             >
               <img
