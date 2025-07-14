@@ -246,7 +246,7 @@ function App() {
                 Chatty
               </p>
               <p className="text-md text-gray-300 ml-4 mb-2 font-light">
-                Real-time application
+                Real-time chat application w Socket.io
               </p>
               <div className="flex justify-start items-center ml-4 mb-4 space-x-2">
                 <ReactLogo className="size-6" />
