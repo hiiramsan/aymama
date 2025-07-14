@@ -231,6 +231,32 @@ function App() {
                 <MongoDB className="size-6" />
               </div>
             </a>
+
+            <a
+              className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg border border-gray-700 shadow-lg flex flex-col transition-transform transform duration-300 ease-in-out hover:scale-105 hover:border-slate-500 hover:shadow-lg hover:shadow-indigo-500/30"
+              href="https://chatty-6xal.onrender.com/"
+              target="_blank"
+            >
+              <img
+                src="/chatty2.png"
+                alt="Chatty"
+                className="w-full h-[180px] object-cover rounded-t-lg"
+              />
+              <p className="text-md text-white ml-4 mt-4 font-semibold">
+                Chatty
+              </p>
+              <p className="text-md text-gray-300 ml-4 mb-2 font-light">
+                Real-time application
+              </p>
+              <div className="flex justify-start items-center ml-4 mb-4 space-x-2">
+                <ReactLogo className="size-6" />
+                <Nodejs className="size-6" />
+                <TailwindCSS className="size-6" />
+                <MongoDB className="size-6" />
+              </div>
+            </a>
+
+
             <a
               className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg border border-gray-700 shadow-lg flex flex-col transition-transform transform duration-300 ease-in-out hover:scale-105 hover:border-slate-500 hover:shadow-lg hover:shadow-indigo-500/30"
               href="https://flashy-v2.vercel.app"
