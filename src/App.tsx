@@ -110,16 +110,22 @@ function App() {
                 >
                   <Github color="rgba(209, 213, 219)" />
                 </a>
-                <a
-                  href="https://www.linkedin.com/in/hiiramsan/"
-                  className="bg-gradient-to-r from-gray-800 to-gray-900 p-2 rounded-lg border border-gray-700 shadow-lg"
-                >
-                  <Linkedin color="rgba(209, 213, 219)" />
-                </a>
-              </div>
-            </div>
-
-            <DecryptedText
+                  <a
+                    href="https://www.linkedin.com/in/hiiramsan/"
+                    className="bg-gradient-to-r from-gray-800 to-gray-900 p-2 rounded-lg border border-gray-700 shadow-lg"
+                  >
+                    <Linkedin color="rgba(209, 213, 219)" />
+                  </a>
+                  <a
+                    href="/resume.pdf"
+                    download="CarlosHiramSanchezMeneses-CV.pdf"
+                    className="bg-gradient-to-r from-gray-800 to-gray-900 p-2 rounded-lg border border-gray-700 shadow-lg text-gray-200 font-bold flex items-center justify-center"
+                    style={{ width: "40px", height: "40px" }}
+                  >
+                    CV
+                  </a>
+                </div>
+              </div>            <DecryptedText
               className="text-2xl font-bold text-white"
               text="Hey, I'm Hiram Sánchez"
               animateOn="view"
