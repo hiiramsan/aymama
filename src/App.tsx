@@ -20,6 +20,8 @@ import {
   Expressjs,
   HTML5,
   MongoDB,
+  Astro,
+  Supabase,
 } from "./components/icons/icons";
 import { useEffect, useState } from "react";
 
@@ -216,6 +218,30 @@ function App() {
 
             <a
               className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg border border-gray-700 shadow-lg flex flex-col transition-transform transform duration-300 ease-in-out hover:scale-105 hover:border-slate-500 hover:shadow-lg hover:shadow-indigo-500/30"
+              href="https://cometreads.vercel.app/"
+              target="_blank"
+            >
+              <img
+                src="/cometreads.png"
+                alt="cometreads"
+                className="w-full h-[180px] object-cover rounded-t-lg"
+              />
+              <p className="text-md text-white ml-4 mt-4 font-semibold">
+                Cometreads
+              </p>
+              <p className="text-md text-gray-300 ml-4 mb-2 font-light">
+                Minimalist space to track your books
+              </p>
+              <div className="flex justify-start items-center ml-4 mb-4 space-x-2">
+                <Astro className="size-6" />
+                <TailwindCSS className="size-6" />
+                <Supabase className="size-6" />
+              </div>
+            </a>
+
+
+            <a
+              className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg border border-gray-700 shadow-lg flex flex-col transition-transform transform duration-300 ease-in-out hover:scale-105 hover:border-slate-500 hover:shadow-lg hover:shadow-indigo-500/30"
               href="https://promodoroapp.vercel.app/"
               target="_blank"
             >
@@ -289,29 +315,7 @@ function App() {
               </div>
             </a>
 
-            <a
-              className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg border border-gray-700 shadow-lg flex flex-col transition-transform transform duration-300 ease-in-out hover:scale-105 hover:border-slate-500 hover:shadow-lg hover:shadow-indigo-500/30"
-              href="https://hiiramsan-wordle.vercel.app/"
-              target="_blank"
-            >
-              <img
-                src="/wordle.png"
-                alt="Wordle"
-                className="w-full h-[180px] object-cover rounded-t-lg"
-              />
-              <p className="text-md text-white ml-4 mt-4 font-semibold">
-                Wordle
-              </p>
-              <p className="text-md text-gray-300 ml-4 mb-2 font-light">
-                Wordle dumb clone (My first project)
-              </p>
-              <div className="flex justify-start items-center ml-4 mb-4 space-x-2">
-                <JavaScript className="size-6" />
-                <CSS className="size-6" />
-                <HTML5 className="size-6" />
-              </div>
-            </a>
-
+            
             
           </div>
         </div>
